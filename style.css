@@ -2,3 +2,69 @@
   background-color: black;
   height: 100vh;
 }
+
+.head {
+  display: flex;
+  flex-direction: column;
+}
+
+.navigation {
+  display: flex;
+  padding: 20px 20px;
+  align-items: center;
+  gap: 30%;
+}
+
+.logo {
+  align-self: flex-start;
+  filter: invert(1) brightness(100%);
+  border: 2px solid powderblue;
+}
+
+.navigation-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  border: 2px solid green;
+}
+
+.navigation-link__links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 2px solid red;
+  align-items: center;
+  width: 70%;
+  align-self: flex-start;
+}
+
+.navi-links {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.navigation-link__socials {
+  display: flex;
+  border: 2px solid purple;
+  gap: 30px;
+}
+
+.social {
+  filter: invert(1) brightness(100%);
+}
+
+.facebook,
+.twitter,
+.instagram {
+  width: 20px;
+}
+.navi-links {
+  color: white;
+  text-decoration: none;
+}
+li {
+  display: inline;
+  text-decoration: none;
+}
