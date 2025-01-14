@@ -190,16 +190,20 @@ body {
 }
 
 .checkmark::before {
-  content: "\2713";
+  /* content: "\2713";
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 16px;
-  color: #fff;
-}
-
-/* Show checkmark when the checkbox is checked */
-.checkbox.checked::before {
-  display: block;
+  color: #fff; */
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 10px;
+  border: solid #fff;
+  border-width: 0 2.5px 2.5px 0;
+  top: 4px;
+  left: 7px;
+  transform: rotate(45deg);
 }
