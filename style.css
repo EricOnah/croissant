@@ -47,3 +47,19 @@ body {
   max-width: 20px;
   filter: invert(1) brightness(100%);
 }
+
+.banner {
+  display: flex;
+  height: 80%;
+  border: 2px solid red;
+  align-items: center;
+  padding: 20px;
+}
+
+.banner-text {
+  color: white;
+}
+
+.banner-text__title {
+  font-size: 3rem;
+}
