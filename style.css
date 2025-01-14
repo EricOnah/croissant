@@ -137,11 +137,15 @@ body {
 }
 
 .body-top__snacks {
-  padding-top: 50px;
+  padding-top: 100px;
   display: flex;
   width: 100%;
   /* align-items: center; */
   justify-content: space-around;
+}
+.body-top__snacks-img {
+  width: 50%;
+  align-self: center;
 }
 
 .body-top__snacks-img img {
@@ -155,9 +159,26 @@ body {
   align-items: flex-start;
 }
 
-.body-top__snacks-text__container {
+.body-top__snacks-text__container1 {
   display: flex;
   flex-direction: column;
+  max-width: 600px;
+  position: relative;
+}
+
+.body-top__snacks-text__container1::before {
+  content: "";
+  position: absolute;
+  bottom: 70%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/resources/image/crois~1.png") no-repeat center center;
+  background-size: cover;
+  opacity: 0.5;
+  transform: rotate(180deg) scaleX(-1);
+  z-index: -1;
 }
 
 .text {
@@ -206,4 +227,50 @@ body {
   top: 4px;
   left: 7px;
   transform: rotate(45deg);
+}
+
+.body-bottom {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+}
+
+.body-top__snacks-two {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-left: 50px;
+  align-self: flex-start;
+}
+
+.body-top__snacks-img-two {
+  align-self: flex-start;
+  margin-right: -30px;
+  display: inline-block;
+  position: relative;
+}
+
+/* .body-top__snacks-img-two img {
+} */
+
+.body-top__snacks-img-two::before {
+  content: "";
+  position: absolute;
+  top: 70%;
+  left: 0;
+  width: 100%;
+  height: 90%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/resources/image/file\ \(3\)~1.png") no-repeat center center;
+  background-size: cover;
+  opacity: 0.5;
+  transform: rotate(180deg) scaleX(-1);
+  z-index: -1;
+}
+
+.body-top__snacks-text__container-two {
+  display: flex;
+  align-self: flex-end;
+  flex-direction: column;
+  max-width: 600px;
 }
