@@ -54,12 +54,41 @@ body {
   border: 2px solid red;
   align-items: center;
   padding: 20px;
+  justify-content: space-between;
 }
 
 .banner-text {
   color: white;
+  flex-grow: 0.5;
 }
 
 .banner-text__title {
-  font-size: 3rem;
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+.banner-text__title-second {
+  color: #ff7600;
+}
+
+.banner-text__btn {
+  padding: 10px 20px;
+  background-color: #ff7600;
+  color: white;
+  font-size: 0.8rem;
+  transition: all 0.4s;
+}
+
+.banner-text__btn:hover {
+  background-color: #ff7600;
+  transform: scale(1.1);
+}
+
+.banner-text__description {
+  padding: 20px 0px;
+}
+
+.banner-img img {
+  max-width: 500px;
+  object-fit: contain;
 }
