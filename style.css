@@ -51,7 +51,6 @@ body {
 .banner {
   display: flex;
   height: 80%;
-  border: 2px solid red;
   align-items: center;
   padding: 20px;
   justify-content: space-between;
@@ -75,7 +74,7 @@ body {
   padding: 10px 20px;
   background-color: #ff7600;
   color: white;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   transition: all 0.4s;
 }
 
@@ -89,7 +88,7 @@ body {
 }
 
 .banner-img img {
-  max-width: 500px;
+  max-width: 450px;
   object-fit: contain;
 }
 
@@ -102,14 +101,14 @@ body {
 .banner-img::before {
   content: "";
   position: absolute;
-  top: 70%;
+  top: 90%;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 90%;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/resources/image/file\ \(2\)~1.png") no-repeat center center;
+    url("/resources/image/bannerimg.png") no-repeat center center;
   background-size: cover;
   opacity: 0.5;
-  transform: scaleY(-1);
+  transform: rotate(180deg) scaleX(-1);
   z-index: -1;
 }
