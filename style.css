@@ -288,3 +288,12 @@ body {
   color: white;
   text-align: center;
 }
+
+.price__card-card__container {
+  display: flex;
+  gap: 10px;
+}
+
+.card-text {
+  color: white;
+}
