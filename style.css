@@ -274,3 +274,17 @@ body {
   flex-direction: column;
   max-width: 600px;
 }
+
+.price__card-container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid red;
+}
+
+.price__card-heading {
+  color: white;
+  text-align: center;
+}
