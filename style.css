@@ -297,3 +297,14 @@ body {
 .card-text {
   color: white;
 }
+
+.card {
+  max-width: 400px;
+  /* height: 500px; */
+  padding: 60px;
+  background-color: #fff;
+}
+
+.card img {
+  width: 200px;
+}
