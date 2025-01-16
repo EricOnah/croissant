@@ -43,13 +43,15 @@ body {
 .navi-links {
   display: flex;
   width: 70%;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 50px;
   color: white;
 }
 
 .navigation-link__socials {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 15px;
   width: 20%;
 }
 
@@ -318,7 +320,7 @@ body {
 }
 
 .card img {
-  max-width: 300px;
+  max-width: 200px;
 }
 
 .card-title {
@@ -326,4 +328,8 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   color: #ff7600;
+}
+
+.price__card-btn {
+  padding-top: 50px;
 }
