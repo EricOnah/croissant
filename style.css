@@ -20,6 +20,12 @@ body {
 .link a {
   text-decoration: none;
   color: #fff;
+  transition: all 0.3s ease;
+  border-bottom: 3px solid #ff770000;
+}
+
+.link a:hover {
+  border-bottom: 3px solid #ff7600;
 }
 
 .logo img {
