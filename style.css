@@ -281,7 +281,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 2px solid red;
+  padding-bottom: 50px 20px;
 }
 
 .price__card-heading {
@@ -301,10 +301,18 @@ body {
 .card {
   max-width: 400px;
   /* height: 500px; */
-  padding: 60px;
+  padding: 60px 30px;
   background-color: #fff;
+  margin-top: 20px;
 }
 
 .card img {
-  width: 200px;
+  max-width: 300px;
+}
+
+.card-title {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #ff7600;
 }
