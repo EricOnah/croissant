@@ -312,15 +312,19 @@ body {
 }
 
 .card {
-  max-width: 400px;
-  /* height: 500px; */
-  padding: 60px 30px;
+  width: 400px;
+  height: 500px;
+  /* padding: 40px 20px; */
   background-color: #fff;
   margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .card img {
-  max-width: 200px;
+  max-width: 300px;
+  align-items: center;
 }
 
 .card-title {
